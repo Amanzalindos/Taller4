@@ -18,14 +18,14 @@ public class PruebaUnitariaB {
         activity.numero1.setText("3");
         activity.numero2.setText("4");
         activity.button_multiplicar.performClick();
-        assertEquals("Multiplicación: 12", activity.resultado.getText().toString());
+        assertEquals("Multiplicación:12", activity.resultado.getText().toString());
     }
 
     @Test
     public void testFibonacci() {
         activity.numero1.setText("5");
         activity.button_fibonacci.performClick();
-        assertEquals("Fibonacci: 5", activity.resultado.getText().toString());
+        assertEquals("Fibonacci:5", activity.resultado.getText().toString());
     }
 
     @Test
@@ -33,7 +33,7 @@ public class PruebaUnitariaB {
         activity.numero1.setText("2");
         activity.numero2.setText("3");
         activity.button_potencia.performClick();
-        assertEquals("Potencia: 8.0", activity.resultado.getText().toString());
+        assertEquals("Potencia:8.0", activity.resultado.getText().toString());
     }
 
     @Test

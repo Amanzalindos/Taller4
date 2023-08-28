@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 int n1 = Integer.parseInt(numero1.getText().toString());
                 int n2 = Integer.parseInt(numero2.getText().toString());
                 double resultad = Math.pow(n1, n2);
-                resultado.setText("Potencia:" + resultad); 
+                resultado.setText("Potencia:" + resultad);
             }
         });
 
